@@ -38,22 +38,22 @@ function a11yProps(index) {
   };
 }
 
-export default function BasicTabs() {
+export default function BasicTabs(props) {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
 
-// When API works
-// Map across pages images
+  const tabItems = props.children.Pages.map((page) =>
+    <Tab key={page.title} label={page.title} />
+  );
 
   return (
     <Box sx={{ width: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab label="Videos (props)" {...a11yProps(0)} />
-          <Tab label="Photos (props)" {...a11yProps(1)} />
+          {tabItems}
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
