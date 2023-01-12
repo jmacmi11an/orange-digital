@@ -1,8 +1,9 @@
-Create a React App
-Make your first git commit
-Create a JSON object
-Make sure both servers are working
-Check that you can render JSON data on front end
+- Create a React App
+- Make your first git commit
+- Create a JSON object
+- Make sure both servers are working
+- Check that you can render JSON data on front end
+(took 3 hours)
 
 Front end work
 Style a responsive and pixel perfect
