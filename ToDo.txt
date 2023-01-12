@@ -1,0 +1,23 @@
+- Create a React App
+- Make your first git commit
+- Create a JSON object
+- Make sure both servers are working
+- Check that you can render JSON data on front end - incomplete
+(took 3 hours)
+
+Connect Frontend to API
+
+Front end work
+ - Make navigating between pages functional
+ - Build template Details page
+ - Replace hard coded elements with mapping over the JSON object
+ - Fine tune front end design
+ - Clean up excessive amount of unused code
+
+
+ Wishful thinking
+ - Remove node packages that you aren't using
+ - Properly install TypeScript
+
+
+Check that you can deploy your two page webapp
