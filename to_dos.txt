@@ -4,8 +4,18 @@ Create a JSON object
 Make sure both servers are working
 Check that you can render JSON data on front end
 
-Front end work 
+Front end work
 Style a responsive and pixel perfect
 
 Check that TS is installed properly
 Check that you can deploy your two page webapp
+
+
+
+gallery page
+details page
+json object
+- page name
+- user details
+- video details
+- picture details

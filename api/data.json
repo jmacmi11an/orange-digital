@@ -1,0 +1,37 @@
+{
+    "Pages": [{
+        "Gallery": "gallery",
+        "image": "",
+      },
+      {
+        "DetailPage": "detail page"
+      }]
+    "Videos": [{
+        "title": "Lost on the Road to the Mountains",
+        "author": "Alan Tiger",
+        "location": "Paris, France",
+        "date": "03/21/2016",
+        "likes": "4500",
+        "comments": "1100",
+        "thumbnail": "/assets/"
+        }]
+    "Pictures": [{
+        "title": "Lost on the Road to the Mountains",
+        "author": "Alan Tiger",
+        "location": "Paris, France",
+        "date": "03/21/2016",
+        "likes": "4500",
+        "comments": "1100",
+        "picture": ""
+    }]
+    "Users": [{
+        "name": "Lost on the Road to the Mountains",
+        "comment": "Alan Tiger",
+        "photo": "Paris, France",
+        "date": "03/21/2016",
+        "likes": "4500",
+        "comments": "1100"
+    }]
+}
+
+2) Users Details 3) Video Details 4) Pictures Details
