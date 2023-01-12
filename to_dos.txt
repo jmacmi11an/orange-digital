@@ -1,0 +1,11 @@
+Create a React App
+Make your first git commit
+Create a JSON object
+Make sure both servers are working
+Check that you can render JSON data on front end
+
+Front end work 
+Style a responsive and pixel perfect
+
+Check that TS is installed properly
+Check that you can deploy your two page webapp
