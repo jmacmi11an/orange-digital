@@ -45,23 +45,27 @@ export default function BasicTabs(props) {
     setValue(newValue);
   };
 
-  const tabItems = props.children.Pages.map((page) =>
-    <Tab key={page.title} label={page.title} />
-  );
 
-  return (
-    <Box sx={{ width: '100%' }}>
-      <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          {tabItems}
-        </Tabs>
+
+if (props.children){
+    const tabItems = props.children.Pages.map((page) =>
+      <Tab key={page.title} label={page.title} />
+    );
+    
+    return (
+      <Box sx={{ width: '100%' }}>
+        <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
+          <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+            {tabItems}
+          </Tabs>
+        </Box>
+        <TabPanel value={value} index={0}>
+          Item One
+        </TabPanel>
+        <TabPanel value={value} index={1}>
+          Item Two
+        </TabPanel>
       </Box>
-      <TabPanel value={value} index={0}>
-        Item One
-      </TabPanel>
-      <TabPanel value={value} index={1}>
-        Item Two
-      </TabPanel>
-    </Box>
-  );
+    );
+  }
 }
