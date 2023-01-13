@@ -1,64 +1,61 @@
 {
-    "Pages": [{
-        "title": "gallery",
-        "images": []
-      },
-      {
-        "title": "detail page",
-        "images": []
-      }
-    ],
-    "Videos": [{
-        "title": "Lost on the Road to the Mountains",
-        "author": "Alan Tiger",
-        "location": "Paris, France",
-        "date": "03/21/2016",
-        "likes": "4500",
-        "comments": "1100",
-        "thumbnail": "/assets/photo-1530584379127-80bf85c555ed.avif"
-      }
-    ],
-    "Pictures": [{
-        "title": "title",
-        "author": "author",
-        "location": "location",
-        "date": "date",
-        "likes": "100",
-        "comments": "100",
-        "photo": ""
-      }
-    ],
-    "Users": [{
-        "name": "Thomas Rodriguez",
-        "comment": "There is very adorable. I am loving this. Sometimes this pictures just are beautiful!",
-        "photo": "/assets/user1.png",
-        "last-comment": "03/21/2016",
-        "likes": "4500",
-        "comments": "1100"
-      },
-      {
-        "name": "Thomas Rodriguez",
-        "comment": "There is very adorable. I am loving this. Sometimes this pictures just are beautiful!",
-        "photo": "/assets/user2.png",
-        "last-comment": "03/21/2016",
-        "likes": "4500",
-        "comments": "1100"
-      },
-      {
-        "name": "Thomas Rodriguez",
-        "comment": "There is very adorable. I am loving this. Sometimes this pictures just are beautiful!",
-        "photo": "/assets/user3.png",
-        "last-comment": "03/21/2016",
-        "likes": "4500",
-        "comments": "1100"
-      },
-      {
-        "name": "Thomas Rodriguez",
-        "comment": "There is very adorable. I am loving this. Sometimes this pictures just are beautiful!",
-        "photo": "/assets/user4.png",
-        "last-comment": "03/21/2016",
-        "likes": "4500",
-        "comments": "1100"
-      }
-    ]
+	"Galleries": [{
+			"title": "Videos",
+			"Videos": [{
+				"title": "Lost on the Road to the Mountains",
+				"author": "Alan Tiger",
+				"location": "Paris, France",
+				"date": "03/21/2016",
+				"likes": "4500",
+				"comments": "1100",
+				"thumbnail": "/assets/photo-1530584379127-80bf85c555ed.avif"
+			}]
+		},
+		{
+			"title": "Photos",
+			"Photos": [{
+				"title": "Lost on the Road to the Mountains",
+				"author": "Alan Tiger",
+				"location": "Paris, France",
+				"date": "03/21/2016",
+				"likes": "4500",
+				"comments": "1100",
+				"thumbnail": "/assets/photo-1530584379127-80bf85c555ed.avif"
+			}]
+		}
+	],
+	"Users": [
+    {
+			"name": "Thomas Rodriguez",
+			"comment": "There is very adorable. I am loving this. Sometimes this pictures just are beautiful!",
+			"photo": "/assets/user1.png",
+			"last-comment": "03/21/2016",
+			"likes": "4500",
+			"comments": "1100"
+		},
+		{
+			"name": "Thomas Rodriguez",
+			"comment": "There is very adorable. I am loving this. Sometimes this pictures just are beautiful!",
+			"photo": "/assets/user2.png",
+			"last-comment": "03/21/2016",
+			"likes": "4500",
+			"comments": "1100"
+		},
+		{
+			"name": "Thomas Rodriguez",
+			"comment": "There is very adorable. I am loving this. Sometimes this pictures just are beautiful!",
+			"photo": "/assets/user3.png",
+			"last-comment": "03/21/2016",
+			"likes": "4500",
+			"comments": "1100"
+		},
+		{
+			"name": "Thomas Rodriguez",
+			"comment": "There is very adorable. I am loving this. Sometimes this pictures just are beautiful!",
+			"photo": "/assets/user4.png",
+			"last-comment": "03/21/2016",
+			"likes": "4500",
+			"comments": "1100"
+		}
+	]
 }

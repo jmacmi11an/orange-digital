@@ -45,13 +45,11 @@ export default function BasicTabs(props) {
     setValue(newValue);
   };
 
-
-
 if (props.children){
-    const tabItems = props.children.Pages.map((page) =>
+    const tabItems = props.children.Galleries.map((page) =>
       <Tab key={page.title} label={page.title} />
     );
-    
+
     return (
       <Box sx={{ width: '100%' }}>
         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
